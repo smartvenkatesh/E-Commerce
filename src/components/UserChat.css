@@ -1,0 +1,23 @@
+.chat-direction{
+    display: flex;
+    margin-top: 10px;
+    /* margin-left: 130px; */
+    width: 1000px;
+}
+.chat-header{
+    display: flex;
+    justify-content: center;
+}
+.chat-body{
+    width: 1000px;
+    /* margin-left: 130px; */
+}
+.chat-all{
+    width: 1100px;
+    border: 2px solid grey;
+    margin-left: 80px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
