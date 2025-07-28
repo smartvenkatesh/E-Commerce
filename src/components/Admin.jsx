@@ -85,6 +85,7 @@ const Admin = () => {
   useEffect(() => {
     fetchMetrics();
     fetchQueries();
+    orderNotifyGet();
     socket.on("newUserRegistered", fetchMetrics);
     socket.on("orderPlaced", fetchMetrics);
     socket.on("orderCompleted", fetchMetrics);
